@@ -6,7 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+<<<<<<< HEAD
   "author": "Rathabod Khiaolee",
+=======
+  "author": "sutinee pipattakon",
+>>>>>>> 2417695cf591b991ab6f1d0e920b8d5267c6b5c6
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
