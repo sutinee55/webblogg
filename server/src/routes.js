@@ -1,4 +1,6 @@
 const UserController = require('./controllers/UserController')
+const UserAuthenController = require('./controllers/UserAuthenController')
+
 
 module.exports = (app) => {
      // get user by id
@@ -15,4 +17,8 @@ module.exports = (app) => {
 
     // get all user
     app.get('/user/:userId',UserController.show)
+
+
+    // login
+    app.post('/login',UserAuthenController.login)
    }
